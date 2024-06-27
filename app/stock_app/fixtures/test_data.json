@@ -1,0 +1,58 @@
+[
+  {
+    "model": "stock_app.vendedor",
+    "pk": 1,
+    "fields": {
+      "nome": "Vendedor Teste",
+      "email": "vendedor@teste.com"
+    }
+  },
+  {
+    "model": "stock_app.produto",
+    "pk": 1,
+    "fields": {
+      "nome": "Produto Teste",
+      "preco": "10.00",
+      "quantidade_estoque": 100
+    }
+  },
+  {
+    "model": "stock_app.comprador",
+    "pk": 1,
+    "fields": {
+      "nome": "Comprador Teste",
+      "email": "comprador@teste.com"
+    }
+  },
+  {
+    "model": "stock_app.compra",
+    "pk": 1,
+    "fields": {
+      "produto": 1,
+      "comprador": 1,
+      "quantidade": 10,
+      "data": "2024-01-01T00:00:00Z",
+      "preco_final": "100.00"
+    }
+  },
+  {
+    "model": "stock_app.venda",
+    "pk": 1,
+    "fields": {
+      "produto": 1,
+      "vendedor": 1,
+      "comprador": 1, 
+      "quantidade": 5,
+      "data": "2024-01-02T00:00:00Z",
+      "preco_final": "50.00"
+    }
+  },
+  {
+    "model": "stock_app.estoque",
+    "pk": 1,
+    "fields": {
+      "produto": 1,
+      "quantidade": 90
+    }
+  }
+]

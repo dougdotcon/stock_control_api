@@ -1,0 +1,10 @@
+Descrição das ferramentas e tecnologias utilizadas no projeto:
+
+1. Django: Framework web de alto nível que promove um desenvolvimento rápido e um design limpo e pragmático.
+2. Django Rest Framework: Conjunto de ferramentas poderoso e flexível para criar APIs web em Django.
+3. MySQL: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar dados da aplicação.
+4. Factory Boy: Ferramenta para criar dados de teste no banco de dados de maneira simples e reutilizável.
+5. Postman: Ferramenta para testar APIs HTTP. Utilizamos o Postman para criar e automatizar testes de endpoints da API.
+6. pytest: Framework de testes para Python que facilita a escrita e execução de testes. Utilizamos `pytest-django` para integrar com o Django.
+7. Git: Sistema de controle de versão utilizado para rastrear alterações no código-fonte.
+8. GitHub Actions: Plataforma de CI/CD que permite a automação de fluxos de trabalho, como a execução de testes automatizados.
