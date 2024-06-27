@@ -1,3 +1,4 @@
+vIDEO EXPLICATIVO: https://youtu.be/AZmYCC7HrKQ
 Descrição das ferramentas e tecnologias utilizadas no projeto:
 
 1. Django: Framework web de alto nível que promove um desenvolvimento rápido e um design limpo e pragmático.
